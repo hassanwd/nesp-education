@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+.one{
+  width: 100%;
+  height: max-content;
+  border: 1px ;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.two{
+  width:85% ;
+  height: max-content;
+  border: 1px ;
+  box-shadow: 0px -19px 43px -10px rgba(0,0,0,0.68);
+}
+#scholorship-img{
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+#scholorship-text{
+  color: green;
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 0;
+}
+.three{
+  width: 85%;
+  height: max-content;
+  border: 1px ;
+}
+#text-1{
+  font-size: .9em;
+  font-family: Arial, Helvetica, sans-serif;
+  /* margin: 20px 0; */
+  text-align:justify;
+  line-height: 22px;
+}
+.four{
+  width: 85%;
+  height:max-content ;
+  border: 1px solid;
+  box-shadow: 0px -19px 43px -10px rgba(0,0,0,0.68);
+
+
+}

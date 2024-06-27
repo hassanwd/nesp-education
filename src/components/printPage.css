@@ -1,0 +1,11 @@
+.printPage{
+    width: 95%;
+    height: max-content;
+    border-radius: 20px;
+}
+span{
+    font-weight: bold;
+}
+p{
+    margin: 0;
+}

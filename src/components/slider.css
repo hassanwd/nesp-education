@@ -1,0 +1,25 @@
+.carousel-control-prev{
+  background-color: rgba(66, 66, 66, 0.651);
+  left: 0;
+  width: 40px;
+  transform: translate( 0, -50%);
+}
+.carousel-control-next{
+  background-color: rgba(66, 66, 66, 0.651);
+  right: 0;
+  width: 40px;
+  transform: translate( 0, -50%);
+}
+.carousel-indicators{
+  width: 100px;
+  height: 30px;
+  margin: auto; 
+  background-color: aqua;
+}
+.carousel-indicators button{
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 50%; 
+  background-color: black;
+}

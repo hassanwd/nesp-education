@@ -1,0 +1,28 @@
+.percentage{
+    width: 30%;
+    height: 40px;
+  }
+  .percentage_bar{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    align-items: center;  
+  }
+  .perc_bar{
+    height: 8px;
+    background-color: green;
+    border-radius: 30px;
+  }
+  .percentage{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  @media screen and (max-width: 768px) {
+    .container{
+      flex-direction: column;
+    }
+    .percentage{
+      width: 100%;
+    }
+  }
